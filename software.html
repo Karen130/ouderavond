@@ -50,6 +50,31 @@
         h1 {
             text-align: left;
         }
+        .content {
+            display: flex;
+            justify-content: flex-start; 
+            margin: 30px; 
+        }
+        
+        .border-box {
+            border: 8px solid darkgreen;  
+            padding: 20px;             
+            text-align: left;          
+            font-size: 18px;         
+            background-color: lightgrey; 
+            width: 475px; 
+            margin-left: 20px; 
+            height: 300px;
+        }
+        .left-images {
+            display: flex;
+            flex-direction: column; 
+            gap: 10px; 
+            margin-right: 300px;
+        }
+        .left-image {
+            max-width: 550px; 
+        }
     </style>
 </head>
 <body>
@@ -60,12 +85,16 @@
 
     <div>
         <ul>
-            <li><a class="active" href="#Opleidingswijzer">Opleidingswijzer</a></li>
+            <li><a class="active">
+            <li><a href="#Homepage">Homepage</a></li>    
+            <li><a href="#Opleidingswijzer">Opleidingswijzer</a></li>
             <li><a href="#BSA">BSA</a></li>
             <li><a href="#Leermiddelen">Leermiddelen</a></li>
             <li><a href="#Canvas">Canvas</a></li>
             <li><a href="#Eduarte">Eduarte</a></li>
             <li><a href="#Software">Software</a></li>
+            <li><a href="#Over Ons">Over Ons</a></li>
+            <li><a href="#Locatiewijzer">Locatiewijzer</a></li>
             <li style="float:right;"><a class="active" href="#Zoeken...">
                 <input type="text" placeholder="Zoeken...">
             </a></li>
@@ -73,6 +102,16 @@
     </div>
     <div style="display: flex;">
         <h1 style="font-size:50px;">Software</h1>
+    </div>
+    <div class="content">
+        <div class="left-images">
+        <img src="https://www.freshersnow.com/wp-content/uploads/2023/02/HTML-vs-CSS.webp" class:="left-image" style="width:500px;height:365px;" alt="HTML-vs-CSS">
+    </div>
+        <div class="border-box">
+            <p>Tijdens de opleidingen Software Development en Creative Media Technology leer je werken op basis van verschillende projecten.</p>
+            <p>Binnen een project werk je samen, maar er zijn ook projecten waarbij je volledig zelfstandig werkt. Bij het ontwerpen en bouwen leer je gebruik te maken van verschillende programmeertalen.</p> 
+            <p>Bij software development zijn dit de programmeertalen HTML, PHP, JavaScript, C# en Python. Bij Creative Media Technology zijn dit HTML/CSS, Sass, Javascript, React.js en Next.js.</p> 
+        </div>
     </div>
 </body>
 </html>

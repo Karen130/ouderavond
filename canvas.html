@@ -50,6 +50,31 @@
         h1 {
             text-align: left;
         }
+        .content {
+            display: flex;
+            justify-content: flex-end; 
+            margin: 30px; 
+        }
+        
+        .border-box {
+            border: 8px solid darkgreen;  
+            padding: 20px;             
+            text-align: left;          
+            font-size: 18px;         
+            background-color: lightgrey; 
+            width: 500px; 
+            margin-left: 20px; 
+            height: 300px;
+        }
+        .left-images {
+            display: flex;
+            flex-direction: column; 
+            gap: 10px; 
+            margin-right: 300px;
+        }
+        .left-image {
+            max-width: 550px; 
+        }
     </style>
 </head>
 <body>
@@ -61,12 +86,16 @@
     <div>
         <nav>
         <ul>
-            <li><a class="active" href="#Opleidingswijzer">Opleidingswijzer</a></li>
+            <li><a class="active">
+            <li><a href="#Homepage">Homepage</a></li> 
+            <li><a href="#Opleidingswijzer">Opleidingswijzer</a></li>
             <li><a href="#BSA">BSA</a></li>
             <li><a href="#Leermiddelen">Leermiddelen</a></li>
             <li><a href="#Canvas">Canvas</a></li>
             <li><a href="#Eduarte">Eduarte</a></li>
             <li><a href="#Software">Software</a></li>
+            <li><a href="#Over Ons">Over Ons</a></li>
+            <li><a href="#Locatiewijzer">Locatiewijzer</a></li>
             <li style="float:right;"><a class="active" href="#Zoeken...">
                 <input type="text" placeholder="Zoeken...">
             </a></li>
@@ -76,6 +105,19 @@
     <div style="display: flex;">
         <img src="https://www.clipartmax.com/png/full/295-2952166_canvas-logo-canvas-instructure-logo.png" style="width:130px;height:125px;" id="logo" alt="Canvas logo">
         <h1 style="font-size:50px;">Canvas</h1>
+    </div>
+    <div class="content">
+        <div class="left-images">
+            <img src="https://i.imgur.com/NIxtJHO.png" style="width:500px;height:374px" alt="Canvas">
+        </div>
+        <div class="border-box">
+            <p>Canvas Student is een mobiele applicatie die wordt gebruikt voor het beheren van online cursussen en educatieve inhoud.</p>
+            <p>Het is een platform dat studenten toegang geeft tot hun cursussen, opdrachten, en mededelingen van hun onderwijsinstellingen.</p>
+            <p>Via de app kunnen studenten ook grades bekijken, communiceren met docenten en medestudenten, en hun voortgang bijhouden.</p>
+            <p>Het maakt deel uit van Canvas, een populair Learning Management System (LMS) dat door veel scholen en universiteiten wordt gebruikt.</p> 
+            <p></p>
+            <p></p>
+        </div>
     </div>
 </body>
 </html>
