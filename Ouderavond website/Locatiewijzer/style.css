@@ -47,9 +47,9 @@ h1 {
   text-align: left;          
   font-size: 18px;         
   background-color: lightgrey; 
-  width: 500px; 
+  width: 600px; 
   margin-left: 20px; 
-  height: 300px;
+  height: 350px;
 }
 .left-images {
   display: flex;
@@ -59,4 +59,14 @@ h1 {
 }
 .left-image {
   max-width: 550px; 
+}
+.footer {
+  background-color: darkgreen; 
+  color: black; 
+  text-align: right; 
+  padding: 5px; 
+  position: relative; 
+  bottom: 0; 
+  width: 100%; 
+  margin-top: 10px; 
 }

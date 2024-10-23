@@ -37,7 +37,7 @@ h1 {
 }
 .content {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-start; 
   margin: 30px; 
 }
 
@@ -47,7 +47,7 @@ h1 {
   text-align: left;          
   font-size: 18px;         
   background-color: lightgrey; 
-  width: 500px; 
+  width: 475px; 
   margin-left: 20px; 
   height: 300px;
 }

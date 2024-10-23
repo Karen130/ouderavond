@@ -47,15 +47,15 @@ h1 {
   text-align: left;          
   font-size: 18px;         
   background-color: lightgrey; 
-  width: 500px; 
-  margin-left: 20px; 
-  height: 300px;
+  width: 600px; 
+  margin-left: 70px; 
+  height: 350px;
 }
 .left-images {
   display: flex;
   flex-direction: column; 
   gap: 10px; 
-  margin-right: 300px;
+  margin-right: 400px;
 }
 .left-image {
   max-width: 550px; 
